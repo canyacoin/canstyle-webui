@@ -1,17 +1,19 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
+declare var createCards: any;
+declare var BancorConvertWidget:any;
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+    selector: 'app-home',
+    templateUrl: './home.component.html',
+    styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit, AfterViewInit {
 
-  // Current user?
-  currentUser: any = JSON.parse( localStorage.getItem('credentials') );
-  // List
-  pitches = [
+export class HomeComponent implements OnInit, AfterViewInit { 
+    // Current user?
+    currentUser: any = JSON.parse( localStorage.getItem('credentials') );
+    // List
+    pitches = [
     { username: 'Juan', title: 'Title', description: 'Short pitch', image: 'https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg', timestamp: '1520219384' },
     { username: 'Juan', title: 'Title', description: 'Short pitch', image: 'https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg', timestamp: '1520219384' },
     { username: 'Juan', title: 'Title', description: 'Short pitch', image: 'https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg', timestamp: '1520219384' },
@@ -19,7 +21,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { username: 'Juan', title: 'Title', description: 'Short pitch', image: 'https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg', timestamp: '1520219384' },
     { username: 'Juan', title: 'Title', description: 'Short pitch', image: 'https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg', timestamp: '1520219384' },
     { username: 'Juan', title: 'Title', description: 'Short pitch', image: 'https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg', timestamp: '1520219384' }
-  ];
+    ];
+    
     elementColors = [
     { code: '#33ccff', name: 'CanYa Blue' },
     { code: '#f0fbff', name: 'UI Blue' },
@@ -27,14 +30,16 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { code: '#185927', name: 'UI Green' },
     { code: '#eceeef', name: 'UI Field Entry' },    
     { code: '#ffffff', name: 'UI 01' },
-    { code: '#f8f9fa', name: 'UI 02' },
+    { code: '#f8f8f8', name: 'UI 02' },
     { code: '#dce0ec', name: 'UI 03' },
     { code: '#757575', name: 'UI 04' }, 
-    { code: '#535353', name: 'Text 01' },
-    { code: '#dce0ec', name: 'Text 02' },
-    { code: '#757575', name: 'Text 03' },
+    { code: '#323c47', name: 'Text 01' },
+    { code: '#535353', name: 'Text 02' },
+    { code: '#9b9b9b', name: 'Text 03' },
+    { code: '#b7bbbd', name: 'Text 04' },
     { code: '#ff4954', name: 'Notice UI'}
-  ]; 
+    ]; 
+    
     supplementColors = [
        { code: '#ff6666', name: 'Support 01' },
        { code: '#f9a4d8', name: 'Support 02' },
@@ -42,12 +47,12 @@ export class HomeComponent implements OnInit, AfterViewInit {
        { code: '#00aca0', name: 'Support 04' },
        { code: '#0078bf', name: 'Support 05' }, 
     ];
+    
     gradientColors = [
         { leftCode: '#33ccff', rightCode: '#4decca', leftName: 'CanYa Blue', rightName: 'CanYa Green'  },
         { leftCode: '#33ccff', rightCode: '#0078bf', leftName: 'CanYa Blue', rightName: 'Cerulean'  },
         { leftCode: '#ff6666', rightCode: '#ffc600', leftName: 'CanYa Red', rightName: 'Marigold'  },
-        { leftCode: '#ff6666', rightCode: '#f9a4d8', leftName: 'CanYa Red', rightName: 'Rose Pink'  }, 
-        
+        { leftCode: '#ff6666', rightCode: '#f9a4d8', leftName: 'CanYa Red', rightName: 'Rose Pink'  }
     ];
     
     canApps = [
@@ -58,24 +63,56 @@ export class HomeComponent implements OnInit, AfterViewInit {
         { name:'CanStation', desc:'Find out the ideal amount of gas to allocate to your ETH transaction!', url:'https://CanStation.io' },
         { name:'CanTrack', desc:'A crisp and easy to use task tracker to help you with your project', url:'https://CanTrack.io' },
     ];
-
+  
   // Flags
   loading = true;
-
-  constructor(private router: Router,
-    private activatedRoute:  ActivatedRoute) {
-
-  }
-
+  
+  constructor(private router: Router,private activatedRoute:  ActivatedRoute) {}
+  
   ngOnInit() {
-    setTimeout( () => {
-      this.loading = false;
-    }, 2000 );
+        setTimeout( () => {
+            this.loading = false;
+            }, 2000 
+        );  
+         
+       
+        
+        // jQuery for the pages
+        $( document ).ready(function() { 
+            $('#colors').hide();
+            $('#buttons').hide();
+            $('#cards').hide(); 
+            $('#widgets').hide();  
+        });  
+        $("#nav-select").change(function() { 
+            hideAll();
+            console.log(( $( this ).val() ));
+            $($( this ).val()).fadeIn();
+        }); 
+         function hideAll(){ 
+            $('#typography').hide();
+            $('#colors').hide();
+            $('#buttons').hide();
+            $('#cards').hide(); 
+            $('#widgets').hide(); 
+         } 
+         createCards();
   }
 
   ngAfterViewInit() {
+    
+   BancorConvertWidget.init({
+                'type': '1',
+                'baseCurrencyId': '5a6f61ece3de16000123763a',
+                'pairCurrencyId': '5937d635231e97001f744267',
+                'primaryColor': '#00BFFF',
+                'primaryColorHover': '55DAFB'
+        }); 
+    
+  
     this.activatedRoute.params.subscribe( (params) => {
       // PARAM? = params['query'] ? params['query'] : '';
     });
   }
+  
 }

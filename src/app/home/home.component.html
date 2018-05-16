@@ -1,25 +1,34 @@
 <div style="height: 80px; background-color:white"></div>
-<!-- Main container -->
+<!-- Main container -->  
+
 <main class="main-content">
     <section class="section bg-white my-30 py-0">
-        <div class="container">
+        <div class="container text-center">
         
                 <h1>The CanYa Styleguide</h1>
-                <ul class="list-inline">
-                    <li class="list-inline-item "><a>Typography</a></li>  
-                    <li class="list-inline-item "><a>Color</a></li>  
-                    <li class="list-inline-item "><a>Cards</a></li>  
-                </ul>
-            
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4" style="float:none; margin:0 auto; display: block; text-align: center;"> 
+                    
+                    <select id="nav-select" class="form-control text-center">
+                        <option value="#typography" selected>Typography</option> 
+                        <option value="#colors">Colors</option>
+                        <option value="#buttons">Buttons</option>
+                        <option value="#cards">Cards</option>
+                        <option value="#widgets">Widgets</option>
+                    </select>
+                
+                </div> 
+                <div class="col-md-4"></div>
+            </div> 
         </div>
     </section>
    <!-- |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
     | Typography
     |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
     !-->
-    <section class="section bg-white my-30 py-0" id="typo">
+    <section class="section bg-white my-30 py-0" id="typography">
      <div class="container">
-
        <h2>CanYa Typography</h2>
       <hr>
       <h1 class="fw-400">Montserrat</h1>
@@ -410,10 +419,9 @@
             </div>
         
         </div>
-     <hr></div>
-        
+     </div> 
     </section>
-    <section class="section bg-white my-30 py-0">
+    <section class="section bg-white my-30 py-0" id="colors">
         <div class="container">
             <h2>CanYa Colour</h2>
             <div class="row">
@@ -497,37 +505,19 @@
                         </div>
                 </div> 
             </div>
-                </div>
-            
-            
-            
-            
-            </div>
-            <!--
-            <h3 class="fw-400">Gradients</h3>  
-            
-            <div class="row" *ngFor="let color of gradientColors">
-                    <div class="container">
-                        <div class="row text-center" [ngStyle]="{'background': 'linear-gradient(92deg, #33ccff,  #4decca)'}" >
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4">{{ color.leftCode }} - {{ color.rightCode }}<br>{{ color.leftName }} - {{ color.rightName }}</div>
-                            <div class="col-md-4"></div>
-                            </div>
-                    </div>
-            </div> 
-            --> 
-            <hr> 
+                </div>  
+            </div>  
         </div>
     </section>
-    <section class="section bg-white my-30 py-0">
+    <section class="section bg-white my-30 py-0" id="buttons">
         <div class="container">
             <h2>Buttons</h2>
             <hr>
         <h3>Primary buttons</h3>
+            <p>Primary buttons that gives positive connotations. </p>
                <div class="row">
                    <div class="col-md-12"> 
                             <button class="btn btn-primary my-1">Btn</button>
-                            <button class="btn btn-canya-chat btn-primary my-1">Btn-chat</button>
                             <button class="btn btn-primary  btn-w-sm my-1">w-sm</button>
                             <button class="btn  btn-primary  btn-w-md my-1">w-md</button>
                             <button class="btn btn-primary  btn-w-lg my-1">w-lg</button>
@@ -543,18 +533,42 @@
                             <button class="btn btn-primary  btn-info">Info</button>
                             <button class="btn btn-primary  btn-warning">Warning</button>
                             <button class="btn  btn-primary  btn-danger">Danger</button>  
-                            <button class="btn  btn-primary  btn-danger-outline">Danger</button>  
             </div>     
-        </div>
+        </div> 
+        <hr>  
+        <div class="row">
+                <div class="col-md-12">
+                <h3>Outline Buttons</h3>
+                <p>add the class btn-outline to any button to turn the button into outlines!</p> 
+                <button class="btn  btn-primary btn-outline">Primary</button>
+                <button class="btn  btn-success btn-outline">Success</button>  
+                <button class="btn  btn-info btn-outline">Info</button>       
+                <button class="btn  btn-warning btn-outline">Warning</button>    
+                <button class="btn   btn-danger btn-outline">Danger</button>   
+                </div> 
+            </div>
         <hr>
         <div class="row">
                 <div class="col-md-12"> 
                     <h3>Secondary buttons</h3>
+                    <p>Secondary buttons are basically grey-colored buttons.</p>
                     <button class="btn btn-secondary my-1">Test</button>
                     <button class="btn btn-secondary btn-w-sm  my-1">w-sm</button>
                     <button class="btn btn-secondary btn-w-md  my-1">w-md</button>
                     <button class="btn btn-secondary btn-w-lg  my-1">Test</button>
                     <button class="btn btn-secondary btn-w-xl  my-1">Test</button> 
+                </div> 
+        </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12"> 
+                    <h3>Special / Custom buttons</h3>
+                    <p>These buttons are buttons with special/custom shapes and color. you can create your own custom buttons with inline-css if you wish. Do note that you must always follow the color pallete.</p>
+                    <button class="btn btn-primary" style="border-radius: 64px">Pill Buttons...</button>
+                    <button class="btn btn-danger" style="border-radius: 64px">...Have 64px radius</button>
+                    <button class="btn btn-lg text-white" style="background-image: linear-gradient(122deg, #33ccff, #4decca);border-radius: 64px">Gradient Buttons...</button>
+                    <button class="btn btn-lg text-white" style="background-image: linear-gradient(122deg, #FF6666, #FFC600)">...can be rectangular.</button>
+                    <button class="btn btn-primary btn-canya-gradient btn-primary my-1">Chat Button</button>
                 </div> 
         </div>
         </div>
@@ -564,32 +578,35 @@
   | Cards
   |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
   !-->
-    <section class="section bg-gray my-30 py-0">
+    <section class="section bg-white my-30 py-0"  id="cards">
     <div class="container"> 
       <h2>Cards</h2> 
-        <p>Cards are used to contain and convey information in a concise and easy to understand manner.</p>
-        
-                <p>Highly customizeable, you can create your own Cards to fit your application's purpose. However, all cards must follow the CanYa typographic and color rules.</p>
-        
-        <hr> 
-        
-     
-      <div class="card-columns" >
-        <ng-template ngFor let-i="index" let-pitch [ngForOf]="pitches">
-          <div *ngIf="(i === 0 || i === 1 || i % 4 !== 0)"  class="card card-hover-shadow my-15 text-left">
-            <img class="card-img-top" src="https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg" alt="CanYa25">
-            <div class="card-body">
-                <p style="font-size:12px" *ngIf="pitch && pitch.username">@{{ pitch.username }}</p>
-                <h3 class="card-title" *ngIf="pitch && pitch.title">{{ pitch.title }}</h3>
-                <p class="card-text" *ngIf="pitch && pitch.description">{{ pitch.description }}</p>
-                <a href="" class="btn btn-primary btn-canya-gradient">
-                  VOTE
-                </a>
-            </div>
-          </div>
-        </ng-template>
-      </div> 
-          <section class="section bg-grey my-30 py-0">
+                <p>Cards are used to contain and convey information in a concise and easy to understand manner.</p> 
+                <p>Highly customizeable, you can create your own Cards to fit your application's purpose. However, all cards must follow the CanYa typographic and color rules.</p> 
+        <hr>
+    </div> 
+      <section class="bg-grey">
+          <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-8 card-columns">   
+                    <ng-template ngFor let-i="index" let-pitch [ngForOf]="pitches">
+                      <div *ngIf="(i === 0 || i === 1 || i % 4 !== 0)"  class="card card-hover-shadow my-15 text-left">
+                        <img class="card-img-top" src="https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg" alt="CanYa25">
+                        <div class="card-body">
+                            <p style="font-size:12px" *ngIf="pitch && pitch.username">@{{ pitch.username }}</p>
+                            <h3 class="card-title" *ngIf="pitch && pitch.title">{{ pitch.title }}</h3>
+                            <p class="card-text" *ngIf="pitch && pitch.description">{{ pitch.description }}</p>
+                            <a href="" class="btn btn-primary btn-canya-gradient">
+                              VOTE
+                            </a>
+                        </div>
+                      </div>
+                  </ng-template>  
+              </div>
+              <div class="col-md-2"></div>
+              </div>
+      </section> 
+      <section class="section bg-white py-30 px-30">
                     <h2 class="text-center">News Cards</h2>
                 <p class="text-center"> These cards are used for the 'latest news' section of the website.<br>since they have borders, they may be shown on a white background.</p>
                 <div class="container">
@@ -637,61 +654,83 @@
           </div> 
         </div>
         <br><br>
-      </div>
-    
-        
+      </div>  
         </section>
         <section>
         <h2 class="text-center">CanApp Cards</h2>
-        <p class="text-center">These apps cards should be present on all CanApps to promote other CanApps.<br>These cards must be clickable and redirect the user to the CanApp's page.</p> 
-            
-          <div class="card-columns canapp-card-div text-center">
-         <div class = "card canapp-card card-hover-shadow" *ngFor="let app of canApps">
-             
-             <a href="{{app.url}}" target="_blank">
-             <div class="card-img-top px-15 py-15">
-                 <img class="canapp-card-illustration" src="assets/img/CanApps/illustrations/{{ app.name }}.svg">
-             </div> 
-             <div class="card-body">
-                <img class="canapp-card-logo" src="assets/img/CanApps/{{ app.name }}.svg">
-                 <br><br>
-                 <p>{{ app.desc }}</p>
-                 <button class="btn btn-primary">Check it out</button>
-             </div>
-             </a>
-         </div>   
-     </div>    
-        </section>  
-        
-    </div>
-     
+        <p class="text-center">These apps cards should be present on all CanApps to promote other CanApps.<br>These cards are generated using cancards.js. Learn more about it on its <a href="">Github page</a>.</p>  
+            <div class="row canAppDiv">
+                <div class = "col-md-2"></div>
+                <div class = "col-md-8">
+                        <div id="canyaCard">   
+                    </div>
+                </div> 
+                <div class = "col-md-2"></div> 
+            </div>
+        </section>   
   </section>
     
-       
-        <section class="section my-30 py-0">
-            <div class="container text-center">
-         <h2>Promotions/Announcements</h2>
-          <p>These cards can be used for special announcements or promotions.</p></div>
-             
-      <div class="row justify-content-center py-15"> 
-         
+    
+    <section class="section my-30 py-0" id="widgets">
+    <div class="container">
+            <h2>Widgets</h2>
+            <p>These widgets can be used for various purposes such as special announcements or promotions.</p>
+            <hr>
+        
+            <h4>Special Cards</h4>
+            <p>These cards can be used in a similar way to Hero images.</p>
+            
+              
+          <div class="row justify-content-center py-15">  
                 <div class="col-12 col-md-9">
-            <a href="">
-              <div class="card card-hover-shadow specialcard-holder" 
-              style="background: linear-gradient(122deg, #3cf 0%, #01fecd 93%)">
-              The World’s Best Blockchain-Powered Marketplace of Services
-              </div>
+                <a href="">
+                <div class="card card-hover-shadow specialcard-holder" style="background: linear-gradient(122deg, #3cf 0%, #01fecd 93%)">
+                        The World’s Best Blockchain-Powered Marketplace of Services
+                </div>
             </a>
           </div>
-        </div>
-             <!--
-  |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-  | Subscribe
-  |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-  !-->
-  <section class="section shadow-1 mt-60" style="background-image: linear-gradient(122deg, #3cf, #01fecd);">
-      <div class="container text-center">
-  
+        </div> 
+    <hr> 
+    </div> 
+    <div class="container">
+          <h4>Bancor Widget</h4>
+            <p>This widget MUST be present in all CanApps</p> 
+        <hr>
+    </div> 
+        <div id="bancor-wc" class="mb-60"></div> 
+    <div class="container">
+          <h4>Donation Section</h4>
+          <p>This section is created so that users of CanApps may donate CANs to contribute to bounties that will help enchancing the App. Do note that the section below is purely HTML/CSS, without any web3 enchancements.</p> 
+        <hr>
+    </div>
+    <section class="row bg-white mt-15 donation-row">
+          <div class="container mt-20">  
+                    <div class="row">
+                        <div class="col-lg-4">  
+                                <p class="fw-600"><img src="assets/img/heart.svg" style="height:1.25rem; display:inline-block"><span class="mx-15" style="letter-spacing: 1.5px">LOVE THIS PROJECT?</span></p>
+                                <br>
+                                <p class="fw-300" style="color:#9B9B9B; font-size: 14px;">CanYa is working to create tools to help freelancers and their clients with their everyday transactions and operations.<br>If you like what we’re doing, donate funds to improve your experience here. </p>
+                        </div>
+                        <div class="col-lg-8 text-right"> 
+                            <div class="progress mt-10"  style="width: 75%;height:0.5rem;float:right; background-color:#ECEEEF"> 
+                                    <div class="progress-bar" role="progressbar" style="width: 75%; background-color:#33ccff" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br>
+                            <br>
+                            <p class="fw-300"  style="color:#9B9B9B; font-size:14px">750 CAN contributed to <br>75% of goal reached</p>
+                            <button class="btn btn-primary btn-outline">DONATE</button>
+                        </div> 
+                    </div> 
+            </div>
+      </section>  
+    <section class="row pt-15 pb-15"><br>
+      <div class="container">
+          <h4>Gradient Promo Sections</h4>
+            <p>This section is primarily used to promote CanYa's Social media or CanYa.io. You can add this section to your website if you need some more color/filler content.</p>
+         </div>
+    </section>    
+    <section class="section shadow-1" style="background-image: linear-gradient(122deg, #3cf, #01fecd);">
+      <div class="container text-center"> 
         <div class="row mt-20 align-items-center">
             <div class="col-12 text-center">
               <img src="assets/img/telegram.png" alt="CanYa - telegram" width="auto" height="100px">
@@ -701,11 +740,12 @@
                 Join us on Telegram</a>
             </div>
           </div>
-  
       </div>
     </section>
+    </section>
+   
 
-        </section>
+      
   
  
 </main>
