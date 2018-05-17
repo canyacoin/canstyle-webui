@@ -2,31 +2,37 @@
 <!-- Main container -->  
 
 <main class="main-content">
-    <section class="section bg-white my-30 py-0">
-        <div class="container text-center">
+    
+    
+    <section class="section bg-white my-30 py-0"  id="introduction"> 
+                <div class="container" >
+    <div class="row">
+        <div class="col-md-2"> 
+                <ul class="list-unstyled side-nav" id="sideNav">
+                    <li  id="#introduction" ng-click="showMe()"><a href="javascript:void(0)">Introduction</a></li>
+                    <li  id="#typography" ngClick="showMe()"><a href="javascript:void(0)">Typography</a></li>
+                    <li  id="#colors" ngClick="showMe()"><a href="javascript:void(0)">Colors</a></li>
+                    <li  id="#buttons" ngClick="showMe()"><a href="javascript:void(0)">Buttons</a></li>  
+                    <li  id="#cards" ngClick="showMe()"><a href="javascript:void(0)">Cards</a></li> 
+                    <li  id="#widgets" ngClick="showMe()"><a href="javascript:void(0)">Widgets</a></li>    
+                </ul>  
+    </div>
         
-                <h1>The CanYa Styleguide</h1>
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-4" style="float:none; margin:0 auto; display: block; text-align: center;"> 
-                    
-                    <select id="nav-select" class="form-control text-center">
-                        <option value="#typography" selected>Typography</option> 
-                        <option value="#colors">Colors</option>
-                        <option value="#buttons">Buttons</option>
-                        <option value="#cards">Cards</option>
-                        <option value="#widgets">Widgets</option>
-                    </select>
-                
-                </div> 
-                <div class="col-md-4"></div>
-            </div> 
-        </div>
-    </section>
-   <!-- |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-    | Typography
-    |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-    !-->
+    <div class="col-md-4"> 
+            <h4 style="padding-left:35px; padding-top: 100px; color:#33ccff">INTRODUCTION</h4>
+            <p  style="padding-left:35px;">CanStyle is a guide which acts as a bridge between developers and designers looking toward a common goal with creating new apps and geatures within the CanYa ecosystem. Inspired by Google's Material design initiative, CanYa seeks to uphold a level of design consistency and excellency accross all the CanApps.</p>
+    </div>
+    <div class="col-md-6">
+         
+        <img class="padding-left:150px; padding-top: 100px; width:1250px; height:auto;" src="https://canya.io/images/canya_mockups.png">
+    </div>
+    
+  </div>
+ </div>
+        </section>
+    
+    
+    
     <section class="section bg-white my-30 py-0" id="typography">
      <div class="container">
        <h2>CanYa Typography</h2>
@@ -222,12 +228,10 @@
                     <tbody>
                         <tr>
                             <td>
-                                <div class="container">
-                                
-                                
+                                <div class="container"> 
                                 <div class="row" style="margin-top: 5px;">
                                 <div class="col-md-4">
-                                    <div style="width:50px; height: 50px; margin:5px auto; background-color: #33ccff"></div>
+                                    <div style="width:25px; height: 25px; margin:5px auto; background-color: #33ccff"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <p>CanYa Blue<br>#33CCFF</p> 
@@ -236,7 +240,7 @@
                                     
                             <div class="row" style="margin-top: 5px;">
                                 <div class="col-md-4">
-                                    <div style="width:50px; height: 50px; margin:5px auto; background-color: #B7BBBD"></div>
+                                    <div style="width:25px; height: 25px; margin:5px auto; background-color: #B7BBBD"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <p>text-03<br>#B7BBBD</p> 
@@ -245,7 +249,7 @@
                                 
                             <div class="row" style="margin-top: 5px;">
                                 <div class="col-md-4">
-                                    <div style="width:50px; height: 50px; margin:5px auto; background-color: #9B9B9B"></div>
+                                    <div style="width:25px; height: 25px; margin:5px auto; background-color: #9B9B9B"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <p>text-02<br>#9B9B9B</p> 
@@ -254,7 +258,7 @@
                                 
                             <div class="row" style="margin-top: 5px;">
                                 <div class="col-md-4">
-                                    <div style="width:50px; height: 50px; margin:5px auto; background-color: #535353"></div>
+                                    <div style="width:25px; height: 25px; margin:5px auto; background-color: #535353"></div>
                                 </div>
                                 <div class="col-md-8">
                                     <p>text-01<br>#535353</p> 
@@ -305,7 +309,7 @@
                                                 <div class="row" style="margin-top:50px">
                                                     <div class="col-md-2"></div>
                                                     <div class="col-md-4">
-                                                        <button class="btn btn-round fw-400" style="width:35px; height: 35px; padding:0;letter-spacing: 0px;text-transform:none; color:#33ccff; border-color:#33ccff;font-size:18px;background-color: transparent">A</button></div>
+                                                        <button class="btn btn-round fw-400" style="width:35px; height: 35px; padding:0;letter-spacing: 0px;text-transform:none; color:#535353; border-color:#535353;font-size:18px;background-color: transparent">A</button></div>
                                                     <div class="col-md-4">
                                                         <button class="btn btn-round fw-400" style="width:35px; height: 35px; padding:0;letter-spacing: 0px;text-transform:none; color:#535353; border-color:#535353;font-size:18px;background-color: transparent">A</button></div>
                                                     <div class="col-md-2"></div>
@@ -658,7 +662,7 @@
         </section>
         <section>
         <h2 class="text-center">CanApp Cards</h2>
-        <p class="text-center">These apps cards should be present on all CanApps to promote other CanApps.<br>These cards are generated using cancards.js. Learn more about it on its <a href="">Github page</a>.</p>  
+        <p class="text-center">These apps cards should be present on all CanApps to promote other CanApps.<br>These cards are generated using cancards.js. Learn more about it on its <a href="https://github.com/canyaio/CanApp-Cards">Github page</a>.</p>  
             <div class="row canAppDiv">
                 <div class = "col-md-2"></div>
                 <div class = "col-md-8">
@@ -668,9 +672,7 @@
                 <div class = "col-md-2"></div> 
             </div>
         </section>   
-  </section>
-    
-    
+  </section>   
     <section class="section my-30 py-0" id="widgets">
     <div class="container">
             <h2>Widgets</h2>
@@ -742,11 +744,12 @@
           </div>
       </div>
     </section>
-    </section>
-   
-
-      
-  
- 
+    </section> 
+    
+    
+    
+    
+    
+    
 </main>
 <!-- END Main container -->
