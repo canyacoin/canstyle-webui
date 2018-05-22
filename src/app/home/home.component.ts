@@ -75,49 +75,30 @@ export class HomeComponent implements OnInit, AfterViewInit {
         // jQuery for the pages
         
         $( document ).ready(function() { 
-        
+            // hide everything....
             hideAll(); 
-             
-            $('#introduction').fadeIn();  
-            $('ul.side-nav li').click(function(e) 
-            { 
-                console.log($(this).attr('id'));
-                
-                if(($(this).attr('id')) != "#introduction"){ 
-                    hideAll();
-                    var id = ($(this).attr('id')); 
-                    var topNavId = 'ul.topbar-nav li.' +  id.substring(1);
-                    console.log(topNavId);
-                    $(id).fadeIn();  
-                    $('ul.topbar-nav li').css('color','#919d9d');
-                    $('#top-nav').removeAttr("hidden"); 
-                    $(topNavId).css('color','#535353');
-                    $('#top-nav').fadeIn(); 
-                    
-                } 
-            });     
-            
-            $('ul.topbar-nav li').click(function(e) 
-            {  
-                $('ul.topbar-nav li').css('color','#919d9d');
+            // and show the intro!
+            $('#introduction').fadeIn();     
+            //topnav navigation
+            $('ul.topbar-nav li a').click(function(e) 
+            {   
+                $('.topbar-nav li a').css('color','#9b9b9b');
                 $(this).css('color','#535353');
-                if($($(this).attr('id')) != "#introduction"){ 
+                console.log($(this).attr('value'));
+                if($($(this).attr('value')) != "#introduction"){ 
                     hideAll();
                     $('.site-footer').hide();
-                    $($(this).attr('id')).fadeIn();
+                    $($(this).attr('value')).fadeIn();
                     $('.site-footer').fadeIn();  
                 }
-            });   
-            
+            });  
             $('.topbar-brand').click(function(e) 
             {  
-                hideAll(); 
-                $('#top-nav').fadeOut("fast"); 
+                hideAll();  
                 $('.site-footer').hide();
                 $("#introduction").fadeIn();  
                 $('.site-footer').fadeIn();  
-            });   
-            
+            });    
             });   
             function hideAll(){  
                 $('#introduction').hide();
@@ -130,10 +111,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
          createCards(); 
   }
 
-  ngAfterViewInit() {  
-        function showMe(){
-            console.log("test!");
-        }
+  ngAfterViewInit() {   
         BancorConvertWidget.init({
                 'type': '1',
                 'baseCurrencyId': '5a6f61ece3de16000123763a',
