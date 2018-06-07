@@ -26,12 +26,18 @@
     "angularfire2": "^5.0.0-rc.5-next",
     "core-js": "^2.5.7",
     "firebase": "^4.13.1",
+<<<<<<< HEAD
     "font-awesome": "^4.7.0",
     "hoek": "^5.0.3",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",
     "npm": "^6.1.0",
     "rxjs": "^5.5.11",
+=======
+    "lodash": "^4.17.10",
+    "moment": "^2.22.1",
+    "rxjs": "^5.5.10",
+>>>>>>> parent of d1e5e1c... updated hoek,minor css updates
     "web3": "^1.0.0-beta2",
     "zone.js": "^0.8.26"
   },
