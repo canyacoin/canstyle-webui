@@ -26,17 +26,22 @@ export class HomeComponent implements OnInit, AfterViewInit {
     { code: '#33ccff', name: 'CanYa Blue' },
     { code: '#f0fbff', name: 'UI Blue' },
     { code: '#4decca', name: 'CanYa Green' },
-    { code: '#185927', name: 'UI Green' },
+    { code: '#d4eddb', name: 'UI Green' },
+    { code: '#185927', name: 'Dark Green Text' },
+    { code: '#D1ECF1', name: 'UI Dark Teal' },
+    { code: '#0B5460', name: 'Dark Teal Text' },
     { code: '#eceeef', name: 'UI Field Entry' },    
     { code: '#ffffff', name: 'UI 01' },
     { code: '#f8f8f8', name: 'UI 02' },
     { code: '#dce0ec', name: 'UI 03' },
-    { code: '#757575', name: 'UI 04' }, 
+    { code: '#757575', name: 'UI 04' },   
     { code: '#323c47', name: 'Text 01' },
     { code: '#535353', name: 'Text 02' },
     { code: '#9b9b9b', name: 'Text 03' },
     { code: '#b7bbbd', name: 'Text 04' },
-    { code: '#ff4954', name: 'Notice UI'}
+    { code: '#ff4954', name: 'Danger UI'},
+    { code: '#30D7A9', name: 'Success UI'},
+    { code: '#00ADEE', name: 'Info UI'}
     ];  
     supplementColors = [
        { code: '#ff6666', name: 'Support 01' },
@@ -108,7 +113,13 @@ export class HomeComponent implements OnInit, AfterViewInit {
                 $('#cards').hide(); 
                 $('#widgets').hide(); 
                 }  
-         createCards(); 
+         createCards();
+         $("#io-btn").click(function(){ 
+         window.open('http://canya.io/', '_blank');
+         })
+         $("#com-btn").click(function(){ 
+         window.open('http://canya.com/', '_blank');
+         })
   }
 
   ngAfterViewInit() {   
