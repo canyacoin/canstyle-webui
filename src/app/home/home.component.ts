@@ -98,8 +98,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
                 }
             });  
             $('.topbar-brand').click(function(e) 
-            {  
-            
+            {   
                 $('.topbar-nav li a').css('color','#9b9b9b');
                 hideAll();  
                 $('.site-footer').hide();
@@ -119,8 +118,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
          $("#github-btn").click(function(){ 
          window.open('https://github.com/canyaio/CanYa-Styleguide', '_blank');
          })
-         $("#com-btn").click(function(){ 
-         window.open('http://canya.com/', '_blank');
+         $("#io-btn").click(function(){ 
+         window.open('http://canya.io/', '_blank');
          })
   }
 
