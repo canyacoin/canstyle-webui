@@ -1,19 +1,13 @@
 <div style="height: 80px; background-color:white"></div>
 <!-- Main container -->  
 
-<main class="main-content">
-    
-    
-    
-    
-    
-    
+<main class="main-content"> 
     <section class="section bg-white my-30 py-0" id="introduction">
         <div class="container">
             <div class="row">
             <div class="col-md-4">  
                     <h2 style="color:#33ccff; padding-top:25%;">INTRODUCTION</h2>
-                    <p>CanStyle is a guide which acts as a bridge between developers and designers looking toward a common goal with creating new apps and geatures within the CanYa ecosystem. Inspired by  Google's Material design initiative, CanYa seeks to uphold a level of design consistency and excellency accross all the CanApps.</p>
+                    <p>CanStyle is a guide which acts as a bridge between designers and developers looking toward a common goal of consistent styling within the CanYa ecosystem. Inspired by Google’s Material design initiative, CanYa seeks to uphold a level of design consistency and excellency across all the CanApps.<br><br>Please note that this style guide is made for Angular-based apps. Style guides for other frameworks will be coming soon</p>
             </div>
             <div class="col-md-8"> 
                 <img src="https://canya.io/images/canya_mockups.png">
@@ -446,7 +440,7 @@
                 <div class="col-md-9">  
                         <div class="row">
                     <div class="card color-card px-15 py-15" *ngFor="let color of supplementColors">
-                        <div class="card-img-top" style="height:150pxs" [style.backgroundColor]="color.code" ><br><br><br></div>
+                        <div class="card-img-top" [style.backgroundColor]="color.code" ><br><br><br></div>
                         <div class="card-body">
                             <p style="margin:5px">
                                 {{ color.name }}<br>{{ color.code }}</p>
@@ -461,14 +455,13 @@
                         <h3 class="fw-400">Gradients</h3>  
                 </div> 
                 <div class="col-md-9"> 
-                
-            <div class="row">
-                <div class="container"> 
-                        <div class="row  px-15 py-15 text-center" [ngStyle]="{'background': 'linear-gradient(92deg, #33ccff,  #4decca)','color':'white'}" >
-                            <div class="col-md-4"></div>
-                            <div class="col-md-4">#33CCFF - #4DECCA<br>CanYa Blue - CanYa Green</div>
-                            <div class="col-md-4"></div>
-                        </div>
+                <div class="row">
+                    <div class="container"> 
+                                <div class="row  px-15 py-15 text-center" [ngStyle]="{'background': 'linear-gradient(92deg, #33ccff,  #4decca)','color':'white'}" >
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-4">#33CCFF - #4DECCA<br>CanYa Blue - CanYa Green</div>
+                                        <div class="col-md-4"></div>
+                            </div>
                 </div> 
             </div>
             <br>
@@ -600,7 +593,13 @@
       <section class="section bg-white py-30 px-30">
                     <h2 class="text-center">News Cards</h2>
                 <p class="text-center"> These cards are used for the 'latest news' section of the website.<br>since they have borders, they may be shown on a white background.</p>
-                <div class="container">
+          <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    
+                    
+                        <div class="container">
         <br><br>
         <div class="row gap-y  bg-white">
           <div class="col-12 col-md-6 col-lg-4">
@@ -646,6 +645,12 @@
         </div>
         <br><br>
       </div>  
+                    
+                    </div>
+              
+                    <div class="col-md-1"></div>
+              </div>
+          </div>
         </section>
         <section>
         <h2 class="text-center">CanApp Cards</h2>
@@ -663,28 +668,12 @@
     <section class="section my-30 py-0" id="widgets">
     <div class="container">
             <h2>Widgets</h2>
-            <p>These widgets can be used for various purposes such as special announcements or promotions.</p>
+            <p>These widgets can be used for various purposes, such as payment, special announcements, etc. <br>CanYa also use various third-party widgets to ease interoparibility between the apps in the CanYa ecosystem.</p>
             <hr>
-        
-            <h4>Special Cards</h4>
-            <p>These cards can be used in a similar way to Hero images.</p>
-            
-              
-          <div class="row justify-content-center py-15">  
-                <div class="col-12 col-md-9">
-                <a href="">
-                <div class="card card-hover-shadow specialcard-holder" style="background: linear-gradient(122deg, #3cf 0%, #01fecd 93%)">
-                        The World’s Best Blockchain-Powered Marketplace of Services
-                </div>
-            </a>
-          </div>
-        </div> 
-    <hr> 
+          
     </div> 
     <div class="container">
-          <h4>Bancor Widget</h4>
-            <p>This widget MUST be present in all CanApps</p> 
-        <hr>
+          <h4>Bancor Widget</h4>  <p>This widget must be present in all CanApps</p>  
     </div> 
         <div id="bancor-wc" class="mb-60"></div> 
     <div class="container">
@@ -731,8 +720,7 @@
           </div>
       </div>
     </section>
-    </section> 
-    
+    </section>  
     
     
     

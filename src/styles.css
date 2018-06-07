@@ -1,4 +1,6 @@
+
 /* You can add global styles to this file, and also import other style files */
+
 #sideNav li{
     padding-right: 25px;
 }
@@ -13,16 +15,10 @@
 #sideNav li a:hover{
     color: #33ccff;  
 }
+.nav-item a{
+    color: #919d9d;
+}
 
-.topbar-nav li a{
-    color: #9b9b9b;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-size: 16px;
-}
-.topbar-nav li a:hover{
-    color: #33ccff !important; 
-}
 #introduction { 
 }
 #introduction p{ 
@@ -30,16 +26,26 @@
     font-weight: 500;
 } 
 #introduction img{
-    max-width: 140%;  
+    max-width: 50rem;  
 }
-
-@media (min-height: 1800px) {
-    #introduction img{
-        max-width: 175%;  
-    }
-}
+ 
 @media (max-height: 720px) {
     #introduction img{
         max-width: 100%;  
     }
+} 
+
+
+.color-card{
+    width:150px;
 }
+.color-card .card-body{
+    flex:none;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+} 
+.color-card .card-img-top{
+    height:75px;
+} 
+
