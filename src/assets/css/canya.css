@@ -1990,8 +1990,8 @@ button:focus {
 }
 
 .dropdown-toggle::after {
-  content: "\f078";
-  font-family: 'Font Awesome 5 Free';
+  content: "\f107";
+  font-family: FontAwesome;
   margin-left: 8px;
   border: none;
   vertical-align: initial;
@@ -4985,14 +4985,7 @@ ul.flexbox {
 .topbar-nav-centered .topbar-right {
   text-align: right;
 }
-.topbar-nav li a{
-    color: #9b9b9b;
-    text-transform: uppercase;
-    letter-spacing: 1.5px; 
-}
-.topbar-nav li a:hover{
-    color: #33ccff !important; 
-}
+
 .nav-submenu {
   position: absolute;
   top: 100%;
@@ -9156,3 +9149,45 @@ a.text-danger:hover, a.text-danger:focus {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.canapp-card{    
+    text-decoration: none;
+    background-color: #ffffff;
+}  
+.canapp-card a{
+    display: block;
+    color:#535353;
+    text-decoration: none;
+}
+.canapp-card-div{ 
+    background-color:#F8F9FA;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.canapp-card-illustration{
+    width:auto; 
+    height: 11rem; 
+}
+.canapp-card-logo{ 
+    width: auto;
+    height: 3rem;
+} 
+.canapp-card p{
+    padding-left:10px; 
+    padding-right:10px;
+}  
+.canapp-card:hover{  
+    transition: all 0.5s ease;
+    box-shadow: 0 0px 15px 0 rgba(0,0,0,0.1);
+}
+
+.color-card{
+    width:200px;
+}
+.color-card .card-body{
+    border: 0.75px solid #919d9d;  
+} 
+.color-card .card-img-top{
+    height:125px;
+} 
