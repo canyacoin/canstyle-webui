@@ -14,28 +14,35 @@
 }
 #sideNav li a:hover{
     color: #33ccff;  
+} 
+.topbar-nav li a{
+    color: #9b9b9b;
+    text-transform: uppercase;
+    letter-spacing: 1.5px; 
 }
-.nav-item a{
-    color: #919d9d;
+.topbar-nav li a:hover{
+    color: #33ccff !important; 
 }
-
-#introduction { 
-}
+ 
 #introduction p{ 
     font-size:14px;
     font-weight: 500;
 } 
-#introduction img{
-    max-width: 50rem;  
+#introduction img{  
+    max-width: 50rem;   
+}
+
+@media (min-height: 1800px) {
+    #introduction img{
+        max-width: 175%;  
+    } 
 }
  
 @media (max-height: 720px) {
     #introduction img{
         max-width: 100%;  
-    }
-} 
-
-
+    }  
+}   
 .color-card{
     width:150px;
 }
@@ -47,5 +54,4 @@
 } 
 .color-card .card-img-top{
     height:75px;
-} 
-
+}  

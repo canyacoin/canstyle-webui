@@ -1,20 +1,23 @@
 <div style="height: 80px; background-color:white"></div>
-<!-- Main container -->  
-
+<!-- Main container -->   
 <main class="main-content"> 
-    <section class="section bg-white my-30 py-0" id="introduction">
-        <div class="container">
-            <div class="row">
-            <div class="col-md-4">  
-                    <h2 style="color:#33ccff; padding-top:25%;">INTRODUCTION</h2>
-                    <p>CanStyle is a guide which acts as a bridge between designers and developers looking toward a common goal of consistent styling within the CanYa ecosystem. Inspired by Google’s Material design initiative, CanYa seeks to uphold a level of design consistency and excellency across all the CanApps.<br><br>Please note that this style guide is made for Angular-based apps. Style guides for other frameworks will be coming soon</p>
-            </div>
-            <div class="col-md-8"> 
-                <img src="https://canya.io/images/canya_mockups.png">
-            </div>
-            </div>
-        </div>
-    </section>
+    <section class="section bg-white my-30 py-0"  id="introduction"> 
+                <div class="container" >
+    <div class="row"> 
+        
+    <div class="col-md-4"> 
+            <h4 style="padding-top: 100px; color:#33ccff">INTRODUCTION</h4>
+            <p>CanStyle is a guide which acts as a bridge between designers and developers looking toward a common goal of consistent styling within the CanYa ecosystem. Inspired by Google’s Material design initiative, CanYa seeks to uphold a level of design consistency and excellency across all the CanApps.
+<br><br>
+Note that this styleguide is tailor-made for Angular-based apps. Styleguides for other frameworks will be coming soon.</p>
+    </div>
+    <div class="col-md-8"> 
+        <img src="https://canya.io/images/canya_mockups.png">
+    </div>
+    
+  </div>
+ </div>
+        </section> 
     
     <section class="section bg-white my-30 py-0" id="typography">
      <div class="container">
@@ -408,9 +411,6 @@
         </div>
      </div> 
     </section>
-    
-    
-    
     <section class="section bg-white my-30 py-0" id="colors">
         <div class="container">
             <h2>CanYa Colour</h2>
@@ -562,6 +562,11 @@
         </div>
         </div>
     </section>
+  <!--
+  |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+  | Cards
+  |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+  !-->
     <section class="section bg-white my-30 py-0"  id="cards">
     <div class="container"> 
       <h2>Cards</h2> 
@@ -673,11 +678,47 @@
           
     </div> 
     <div class="container">
-          <h4>Bancor Widget</h4>  <p>This widget must be present in all CanApps</p>  
+          <h4>Bancor Widget</h4>  
+            <p>This widget must be present in all CanApps.</p>
     </div> 
         <div id="bancor-wc" class="mb-60"></div> 
     <div class="container">
-          <h4>Donation Section</h4>
+        <p>To put this widget, follow these steps :</p>
+        <ul>
+            <li>
+                Add this code into your HTML;
+                <pre>&lt;div id="bancor-wc"&gt;&lt;/div&gt;</pre>
+            </li>
+            <li>
+                Insert this code at the end of your HTML file:
+                <pre>
+&lt;script src="https://widget-convert.bancor.network/v1"&gt;&lt;/script&gt;<br>
+&lt;script&gt;
+BancorConvertWidget.init&#40;&#123;
+"type": "1",
+"baseCurrencyId": "5a6f61ece3de16000123763a",
+"pairCurrencyId": "5937d635231e97001f744267",
+"primaryColor": "#00BFFF",
+"primaryColorHover": "#55DAFB"
+&#125;&#41;;
+&lt;/script&gt;</pre>
+            </li>
+            <li>for React implementation check <a href="https://stackoverflow.com/questions/40983358/use-third-party-embed-code-in-a-react-component" target="_blank">this link.</a>
+            </li>
+            <li>
+            <br>Some notes on the variables, and what you can do with it:
+            <pre>
+"primaryColor":  - change this if you would like to modify the main widget color from black
+"primaryColorHover":  - change this if you would like to modify the "mouse over" effect of the buttons
+"hideVolume": true - add this line if you want to hide the 24h trade volume)    
+"unlockBaseCurrency": true - add this line if you want to enable your visitors to convert any token to any token on the Bancor network (default is limited to your token and token relay only)</pre>
+            </li>
+        
+        </ul>
+        <hr>
+    </div>
+    <div class="container">
+          <h4>Bounties Section</h4>
           <p>This section is created so that users of CanApps may donate CANs to contribute to bounties that will help enchancing the App. Do note that the section below is purely HTML/CSS, without any web3 enchancements.</p> 
         <hr>
     </div>
