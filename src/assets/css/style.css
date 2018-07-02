@@ -1,3 +1,5 @@
+/* This file should be use for your own custom styles. */
+
 
 .thesaas-sections-split .section,
 .thesaas-sections-split .main-content .topbar,
@@ -28,21 +30,6 @@
   display: none;
 }
 
-@media (max-width: 768px) {
-
-  .thesaas-sections-split .section,
-  .thesaas-sections-split .main-content .site-footer {
-    margin: 30px 0 100px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-
-}
-
-@media (max-width: 376px) {
-  .topbar-right {
-    height: 76px !important;
-  }
-}
 
 @font-face {
   font-family: 'canya';
@@ -201,11 +188,38 @@
   width: 100%; 
   height: 410px;
 }
+ 
+#introduction{
+    padding-top:100px; 
+}
+.mobile-only{
+    display:none;
+}
+@media (max-width: 768px) {
 
-/* .explore-margin {
-  margin-top: -220px;
-} */
+  .thesaas-sections-split .section,
+  .thesaas-sections-split .main-content .site-footer {
+    margin: 30px 0 100px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    .mobile-only{
+        display:block;
+        width: 250px;
+    }
+  
+    .top-btn{
+        display: none;
+    }
 
+}
+
+@media (max-width: 376px) {
+  .topbar-right {
+    height: 76px !important;
+  }
+}
 @media only screen and (min-width : 320px) and (max-width: 600px) {
   #desk {
     position: relative;

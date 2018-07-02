@@ -1,0 +1,92 @@
+ <section class="section my-30 py-0" id="widgets">
+    <div class="container">
+            <h2>Widgets</h2>
+            <p>These widgets can be used for various purposes, such as payment, special announcements, etc. <br>CanYa also use various third-party widgets to ease interoparibility between the apps in the CanYa ecosystem.</p>
+            <hr>
+          
+    </div> 
+    <div class="container">
+          <h4>Bancor Widget</h4>  
+            <p>This widget must be present in all CanApps.</p>
+    </div> 
+        <div id="bancor-wc" class="mb-60"></div> 
+    <div class="container">
+        <p>To put this widget, follow these steps :</p>
+        <ul>
+            <li>
+                Add this code into your HTML;
+                <pre>&lt;div id="bancor-wc"&gt;&lt;/div&gt;</pre>
+            </li>
+            <li>
+                Insert this code at the end of your HTML file:
+                <pre>
+&lt;script src="https://widget-convert.bancor.network/v1"&gt;&lt;/script&gt;<br>
+&lt;script&gt;
+BancorConvertWidget.init&#40;&#123;
+"type": "1",
+"baseCurrencyId": "5a6f61ece3de16000123763a",
+"pairCurrencyId": "5937d635231e97001f744267",
+"primaryColor": "#00BFFF",
+"primaryColorHover": "#55DAFB"
+&#125;&#41;;
+&lt;/script&gt;</pre>
+            </li>
+            <li>Some notes on the variables, and what you can do with it:
+            <pre>
+"primaryColor":  - change this if you would like to modify the main widget color from black
+"primaryColorHover":  - change this if you would like to modify the "mouse over" effect of the buttons
+"hideVolume": true - add this line if you want to hide the 24h trade volume)    
+"unlockBaseCurrency": true - add this line if you want to enable your visitors to convert any token to any token on the Bancor network (default is limited to your token and token relay only)</pre>
+            </li>
+            <li>for React implementation check <a href="https://stackoverflow.com/questions/40983358/use-third-party-embed-code-in-a-react-component" target="_blank">this link.</a>
+            </li>
+        
+        </ul>
+        <hr>
+    </div>
+    <div class="container">
+          <h4>Bounties Section</h4>
+          <p>This section is created so that users of CanApps may donate CANs to contribute to bounties that will help enchancing the App. Do note that the section below is purely HTML/CSS, without any web3 enchancements.</p> 
+        <hr>
+    </div>
+    <section class="row bg-white mt-15 donation-row">
+          <div class="container mt-20">  
+                    <div class="row">
+                        <div class="col-lg-4">  
+                                <p class="fw-600"><img src="assets/img/heart.svg" style="height:1.25rem; display:inline-block"><span class="mx-15" style="letter-spacing: 1.5px">LOVE THIS PROJECT?</span></p>
+                                <br>
+                                <p class="fw-300" style="color:#9B9B9B; font-size: 14px;">CanYa is working to create tools to help freelancers and their clients with their everyday transactions and operations.<br>If you like what we’re doing, donate funds to improve your experience here. </p>
+                        </div>
+                        <div class="col-lg-8 text-right"> 
+                            <div class="progress mt-10"  style="width: 75%;height:0.5rem;float:right; background-color:#ECEEEF"> 
+                                    <div class="progress-bar" role="progressbar" style="width: 75%; background-color:#33ccff" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <br>
+                            <br>
+                            <p class="fw-300"  style="color:#9B9B9B; font-size:14px">750 CAN contributed to <br>75% of goal reached</p>
+                            <button class="btn btn-primary btn-outline">DONATE</button>
+                        </div> 
+                    </div> 
+            </div>
+      </section>  
+    <section class="row pt-15 pb-15"><br>
+      <div class="container">
+          <h4>Gradient Promo Sections</h4>
+            <p>This section is primarily used to promote CanYa's Social media or CanYa.io. You can add this section to your website if you need some more color/filler content.</p>
+         </div>
+    </section>    
+    <section class="section shadow-1" style="background-image: linear-gradient(122deg, #3cf, #01fecd);">
+      <div class="container text-center"> 
+        <div class="row mt-20 align-items-center">
+            <div class="col-12 text-center">
+              <img src="assets/img/telegram.png" alt="CanYa - telegram" width="auto" height="100px">
+              <h4 class="text-white pt-25">Got another question? Ask our active community on Telegram.</h4>
+              <br>
+              <a href="https://t.me/CanYaCommunity" target="_blank" class="btn btn-lg btn-primary shadow-3">
+                Join us on Telegram</a>
+            </div>
+          </div>
+      </div>
+    </section>
+    </section>  
+   

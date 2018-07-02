@@ -1,0 +1,106 @@
+
+   
+<section class="section bg-white my-30 py-0"  id="cards">
+    <div class="container"> 
+      <h2>Cards</h2> 
+                <p>Cards are used to contain and convey information in a concise and easy to understand manner.</p> 
+                <p>Highly customizeable, you can create your own Cards to fit your application's purpose. However, all cards must follow the CanYa typographic and color rules.</p> 
+        <hr>
+    </div> 
+      <section class="bg-grey">
+          <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-8 card-columns">   
+                    <ng-template ngFor let-i="index" let-pitch [ngForOf]="pitches">
+                      <div *ngIf="(i === 0 || i === 1 || i % 4 !== 0)"  class="card card-hover-shadow my-15 text-left">
+                        <img class="card-img-top" src="https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg" alt="CanYa25">
+                        <div class="card-body">
+                            <p style="font-size:12px" *ngIf="pitch && pitch.username">@{{ pitch.username }}</p>
+                            <h3 class="card-title" *ngIf="pitch && pitch.title">{{ pitch.title }}</h3>
+                            <p class="card-text" *ngIf="pitch && pitch.description">{{ pitch.description }}</p>
+                            <a href="" class="btn btn-primary btn-canya-gradient">
+                              VOTE
+                            </a>
+                        </div>
+                      </div>
+                  </ng-template>  
+              </div>
+              <div class="col-md-2"></div>
+              </div>
+      </section> 
+      <section class="section bg-white py-30 px-30">
+                    <h2 class="text-center">News Cards</h2>
+                <p class="text-center"> These cards are used for the 'latest news' section of the website.<br>since they have borders, they may be shown on a white background.</p>
+          <div class="container">
+                <div class="row">
+                    <div class="col-md-1"></div>
+                <div class="col-md-10">
+                    
+                    
+                        <div class="container">
+        <br><br>
+        <div class="row gap-y  bg-white">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-bordered card-hover-shadow">
+              <a href="https://blog.canya.com.au/2018/02/01/canya-partners-with-origin-protocol/" target="_blank">
+                <img class="card-img-top" src="https://canyacoin.files.wordpress.com/2018/01/canya_origin_blog.png" alt="CanYa + Origin Protocol">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://blog.canya.com.au/2018/02/01/canya-partners-with-origin-protocol/" target="_blank">CanYa partners with Origin Protocol</a>
+                </h4>
+                <p class="card-text">CanYa is pleased to announce that we have added another awesome new tech stack partner.</p>
+                <a class="fw-600 fs-12" href="https://blog.canya.com.au/2018/02/01/canya-partners-with-origin-protocol/" target="_blank">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card card-bordered card-hover-shadow">
+              <a href="https://blog.canya.com.au/2018/01/30/active-in-the-usa/" target="_blank">
+                <img class="card-img-top" src="https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-out-and-about.jpg" alt="CanYa - USA">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title"><a href="https://blog.canya.com.au/2018/01/30/active-in-the-usa/" target="_blank">CanYa Team Active in the USA!</a></h4>
+                <p class="card-text">CanYa has been out and about in the USA. Throughout January the CanYa team has been very active!</p>
+                <a class="fw-600 fs-12" href="https://blog.canya.com.au/2018/01/30/active-in-the-usa/" target="_blank">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 hidden-md-down">
+            <div class="card card-bordered card-hover-shadow">
+              <a href="https://blog.canya.com.au/2018/01/22/canya-adds-two-world-class-advisors-to-our-board/" target="_blank">
+                <img class="card-img-top" src="https://canyacoin.files.wordpress.com/2018/01/canya_featured-images-advisory-board1.jpg" alt="CanYa - Advisors">
+              </a>
+              <div class="card-body">
+                <h4 class="card-title">
+                  <a href="https://blog.canya.com.au/2018/01/22/canya-adds-two-world-class-advisors-to-our-board/" target="_blank">CanYa adds two world class advisors to our board</a>
+                </h4>
+                <p class="card-text">CanYa announces Power Ledger & Bluzelle board member and leading crypto legal expert as new advisors.</p>
+                <a class="fw-600 fs-12" href="https://blog.canya.com.au/2018/01/22/canya-adds-two-world-class-advisors-to-our-board/" target="_blank">Read more <i class="fa fa-chevron-right fs-9 pl-8"></i></a>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <br><br>
+      </div>  
+                    
+                    </div>
+              
+                    <div class="col-md-1"></div>
+              </div>
+          </div>
+        </section>
+        <section>
+        <h2 class="text-center">CanApp Cards</h2>
+        <p class="text-center">These apps cards should be present on all CanApps to promote other CanApps.<br>These cards are generated using cancards.js. Learn more about it on its <a href="https://github.com/canyaio/CanApp-Cards">Github page</a>.</p>  
+            <div class="row canAppDiv">
+                <div class = "col-md-2"></div>
+                <div class = "col-md-8">
+                        <div id="canyaCard">   
+                    </div>
+                </div> 
+                <div class = "col-md-2"></div> 
+            </div>
+        </section>   
+  </section> 
+

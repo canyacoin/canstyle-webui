@@ -21,6 +21,13 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
+import { TypographyComponent } from './typography/typography.component';
+import { ColoursComponent } from './colours/colours.component';
+import { ButtonsComponent } from './buttons/buttons.component';
+import { CardsComponent } from './cards/cards.component';
+import { CardComponent } from './card/card.component';
+import { WidgetsComponent } from './widgets/widgets.component';
+import { AssetsComponent } from './assets/assets.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +36,14 @@ import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    TypographyComponent,
+    ColoursComponent,
+    ButtonsComponent,
+    CardsComponent,
+    CardComponent,
+    WidgetsComponent,
+    AssetsComponent
   ],
   imports: [
     BrowserModule,

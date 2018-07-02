@@ -4,7 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { AuthGuard } from './auth.guard';
 
 import { HomeComponent } from './home/home.component';
+import { TypographyComponent } from './typography/typography.component';
+import { ColoursComponent } from './colours/colours.component';
+import { ButtonsComponent } from './buttons/buttons.component';
+import { CardsComponent } from './cards/cards.component';
+import { WidgetsComponent } from './widgets/widgets.component';
 import { PageNotFoundComponent } from './pagenotfound/pagenotfound.component';
+import { AssetsComponent } from './assets/assets.component';
 
 const routes: Routes = [
     {
@@ -23,9 +29,33 @@ const routes: Routes = [
         // canActivate: [AuthGuard]
     },
     {
-        path: '**',
+        path: 'typography', 
+        component: TypographyComponent
+    } ,
+    {
+        path: 'colours', 
+        component: ColoursComponent
+    } ,
+    {
+        path: 'buttons', 
+        component: ButtonsComponent
+    } ,
+    {
+        path: 'cards', 
+        component: CardsComponent
+    } ,
+    {
+        path: 'widgets', 
+        component: WidgetsComponent
+    } ,
+    {
+        path: 'assets', 
+        component: AssetsComponent
+    } ,
+    {
+        path: '**', 
         component: PageNotFoundComponent
-    }
+    } 
 ];
 
 @NgModule({

@@ -1,0 +1,88 @@
+
+    <section class="section bg-white my-30 py-0" id="colors">
+        <div class="container">
+            <h2>CanYa Colour</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <h3 class="fw-400">Elemental Colours</h3>
+                </div>
+                <div class="col-md-9">
+                 <div class="row">
+                    <div class="card color-card px-15 py-15" *ngFor="let color of elementColors">
+                        <div class="card-img-top" style="height:150pxs" [style.backgroundColor]="color.code" ><br><br><br></div>
+                        <div class="card-body">
+                            <p style="margin:5px">
+                                {{ color.name }}<br>{{ color.code }}</p>
+                        </div>
+                    </div>
+            
+            </div> 
+                </div>
+            </div>    
+            <hr>
+           
+            <div class="row">
+                <div class="col-md-3"> 
+                        <h3 class="fw-400">Supplementary Colours</h3> 
+                </div>
+                <div class="col-md-9">  
+                        <div class="row">
+                    <div class="card color-card px-15 py-15" *ngFor="let color of supplementColors">
+                        <div class="card-img-top" [style.backgroundColor]="color.code" ><br><br><br></div>
+                        <div class="card-body">
+                            <p style="margin:5px">
+                                {{ color.name }}<br>{{ color.code }}</p>
+                        </div>
+                    </div> 
+            </div>  
+                </div> 
+            </div>
+            <hr>  
+            <div class="row">
+                <div class="col-md-3"> 
+                        <h3 class="fw-400">Gradients</h3>  
+                </div> 
+                <div class="col-md-9"> 
+                <div class="row">
+                    <div class="container"> 
+                                <div class="row  px-15 py-15 text-center" [ngStyle]="{'background': 'linear-gradient(92deg, #33ccff,  #4decca)','color':'white'}" >
+                                        <div class="col-md-4"></div>
+                                        <div class="col-md-4">#33CCFF - #4DECCA<br>CanYa Blue - CanYa Green</div>
+                                        <div class="col-md-4"></div>
+                            </div>
+                </div> 
+            </div>
+            <br>
+            <div class="row">
+                <div class="container"> 
+                        <div class="row px-15 py-15 text-center" [ngStyle]="{'background': 'linear-gradient(to right, #33ccff,  #0078BF)','color':'white'}" >
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">#33CCFF - #0078BF<br>CanYa Blue - Cerulean</div>
+                            <div class="col-md-4"></div>
+                        </div>
+                </div> 
+            </div> 
+            <br>
+            <div class="row">
+                <div class="container"> 
+                        <div class="row px-15 py-15  text-center" [ngStyle]="{'background': 'linear-gradient(to right, #FF6666,  #FFC600)','color':'white'}" >
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">#FF6666 - #FFC600<br>CanYa Red - Marigold</div>
+                            <div class="col-md-4"></div>
+                        </div>
+                </div> 
+            </div>
+            <br>
+            <div class="row">
+                <div class="container"> 
+                        <div class="row px-15 py-15 text-center" [ngStyle]="{'background': 'linear-gradient(to right, #FF6666,  #F9A4D8)','color':'white'}" >
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">#FF6666 - #F9A4D8<br>CanYa Red - CanYa Pink</div>
+                            <div class="col-md-4"></div>
+                        </div>
+                </div> 
+            </div>
+                </div>  
+            </div>  
+        </div>
+    </section>

@@ -130,10 +130,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
                 'pairCurrencyId': '5937d635231e97001f744267',
                 'primaryColor': '#00BFFF',
                 'primaryColorHover': '55DAFB'
-        });  
-        this.activatedRoute.params.subscribe( (params) => {
-            // PARAM? = params['query'] ? params['query'] : '';
-        });
+        });   
   }
   
 }
