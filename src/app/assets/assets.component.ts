@@ -7,11 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AssetsComponent implements OnInit {
 
+  illustrations = ["CanSend","CanShare","CanFund","CanStation","CanInvoice","CanSign","CanTrack","CanSeek"]
+
   constructor() { }
 
-  ngOnInit() {
-  
-            $('#assets-link').css('color','#535353'); 
+  ngOnInit() {   
+            $('#top-nav .nav-item a').css('color','#919d9d');
+            $('#assets-link').css('color','#535353');   
   }
 
 }

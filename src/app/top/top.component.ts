@@ -13,5 +13,6 @@ export class TopComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+ 
   }
 }

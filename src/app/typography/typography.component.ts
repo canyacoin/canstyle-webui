@@ -12,6 +12,7 @@ export class TypographyComponent implements OnInit {
   ngOnInit() {
   
     $( document ).ready(function() { 
+        $('#top-nav .nav-item a').css('color','#919d9d');
         $('#typo-link').css('color','#535353');
     });
   }

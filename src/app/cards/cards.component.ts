@@ -18,6 +18,8 @@ export class CardsComponent implements OnInit {
   ngAfterViewInit() {   
   
     $( document ).ready(function() { 
+
+        $('#top-nav .nav-item a').css('color','#919d9d');
         $('#cards-link').css('color','#535353');
     });
   }

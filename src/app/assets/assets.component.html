@@ -1,18 +1,18 @@
 <!-- Main container -->   
 <main class="main-content"> 
-    <section class="section bg-white my-30 py-0"  id="introduction"> 
+    <section class="section bg-white my-30 py-0"  id="assets"> 
         <div class="container" >
             <div class="row"> 
                 <div class="col-md-12">
                     <h2>Assets</h2>
                     <p>In this page you can download high-resolution logos, illustrations, and other visual assets you might need in your CanApp.</p> 
-                </div>
                 <hr>
+                </div>
             </div>
             <div class="row"> 
                 <div class="col-md-12">
                     <h3>Logos</h3>
-                        <div class="row text-center"> 
+                        <div class="row text-center py-15"> 
                                 <div class="col-md-4">  
                         <p>The CanYa logo (original)</p>
                         <img style="max-width: 15rem; padding:10px" src="assets/img/canya.svg"> 
@@ -32,13 +32,13 @@
                         </span>
                     </div> 
                         </div>
+                        <hr>
                 </div>
-                <hr>
             </div>
             <div class="row"> 
                 <div class="col-md-12">
                     <h3>Icons</h3>
-                        <div class="row  text-center"> 
+                        <div class="row  text-center py-15"> 
                                 <div class="col-md-4">  
                         <p>Circle Icon</p>
                         <img style="max-width: 10rem; padding:10px" src="assets/img/canya-circle.svg"> 
@@ -58,8 +58,29 @@
                         </span>
                     </div> 
                         </div>
+                        <hr>
                 </div>
-                <hr>
+            </div> 
+            <div class="row"> 
+                <div class="col-md-12">
+                    <h3>Illustrations</h3> 
+                    <br>
+                    <h4>CanApps</h4>
+                        <div class="row  text-center"> 
+                            <ng-template ngFor let-i="index" let-illustration [ngForOf]="illustrations">
+                                <div *ngIf="(i === 0 || i === 1 || i % 4 !== 0)" style="width:300px" class="card py-15 px-15 text-center">
+                                  <div class="card-body">
+                                    <p>{{illustration}}</p>
+                                    <img class="card-img-top" style="width:auto; height: 150px; padding:10px;" src="https://canya.io/images/CanApps/illustrations/{{illustration}}.svg" alt="CanYa25">
+                                    <br><br>
+                                    <a href="https://canya.io/images/CanApps/illustrations/{{illustration}}.svg" download>Download SVG</a>
+                                  </div>
+                                </div>
+                            </ng-template>      
+                        
+                        </div>
+                        <hr>
+                </div> 
             </div>
         </div>
     </section>  

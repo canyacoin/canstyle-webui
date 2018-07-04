@@ -45,6 +45,7 @@ export class ColoursComponent implements OnInit {
 
   ngOnInit() {
     $( document ).ready(function() { 
+        $('#top-nav .nav-item a').css('color','#919d9d');
         $('#colours-link').css('color','#535353');
     });
  

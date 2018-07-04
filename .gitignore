@@ -51,3 +51,419 @@ public/index.html
 public/main.aee2c680a2903fd5e4bf.bundle.js
 public/styles.ff7f1c853593a62bd286.bundle.css
 public/index.html
+old builds/dist/assets/css/awesomplete.css
+old builds/dist/assets/css/canya.css
+old builds/dist/assets/css/canya.css.map
+old builds/dist/assets/css/core.min.css
+old builds/dist/assets/css/cryptocoins-colors.css
+old builds/dist/assets/css/cryptocoins.css
+old builds/dist/assets/css/style.css
+old builds/dist/assets/data/airport.json
+old builds/dist/assets/data/consult.json
+old builds/dist/assets/data/desk.json
+old builds/dist/assets/data/hand.json
+old builds/dist/assets/data/home.json
+old builds/dist/assets/data/portfolio.json
+old builds/dist/assets/docs/terms.pdf
+old builds/dist/assets/docs/whitepaper.pdf
+old builds/dist/assets/fonts/canya.eot
+old builds/dist/assets/fonts/canya.svg
+old builds/dist/assets/fonts/canya.ttf
+old builds/dist/assets/fonts/canya.woff
+old builds/dist/assets/fonts/canya.woff2
+old builds/dist/assets/fonts/cryptocoins.ttf
+old builds/dist/assets/fonts/cryptocoins.woff
+old builds/dist/assets/fonts/cryptocoins.woff2
+old builds/dist/assets/fonts/et-line.eot
+old builds/dist/assets/fonts/et-line.svg
+old builds/dist/assets/fonts/et-line.ttf
+old builds/dist/assets/fonts/et-line.woff
+old builds/dist/assets/fonts/fontawesome-webfont.eot
+old builds/dist/assets/fonts/fontawesome-webfont.svg
+old builds/dist/assets/fonts/fontawesome-webfont.ttf
+old builds/dist/assets/fonts/fontawesome-webfont.woff
+old builds/dist/assets/fonts/fontawesome-webfont.woff2
+old builds/dist/assets/fonts/FontAwesome.otf
+old builds/dist/assets/fonts/themify.eot
+old builds/dist/assets/fonts/themify.svg
+old builds/dist/assets/fonts/themify.ttf
+old builds/dist/assets/fonts/themify.woff
+old builds/dist/assets/img/badge-apple.png
+old builds/dist/assets/img/badge-google.png
+old builds/dist/assets/img/bot-hover.svg
+old builds/dist/assets/img/bot.svg
+old builds/dist/assets/img/CanApps/CanApps .svg
+old builds/dist/assets/img/CanApps/CanAutomate .svg
+old builds/dist/assets/img/CanApps/CanBe .svg
+old builds/dist/assets/img/CanApps/CanDo .svg
+old builds/dist/assets/img/CanApps/CanGfy .svg
+old builds/dist/assets/img/CanApps/CanGive .svg
+old builds/dist/assets/img/CanApps/CanHire.svg
+old builds/dist/assets/img/CanApps/CanID .svg
+old builds/dist/assets/img/CanApps/CanInvoice.svg
+old builds/dist/assets/img/CanApps/CanLedger .svg
+old builds/dist/assets/img/CanApps/CanPay .svg
+old builds/dist/assets/img/CanApps/CanPro .svg
+old builds/dist/assets/img/CanApps/CanProof .svg
+old builds/dist/assets/img/CanApps/CanQueue .svg
+old builds/dist/assets/img/CanApps/CanSend.svg
+old builds/dist/assets/img/CanApps/CanServices.svg
+old builds/dist/assets/img/CanApps/CanShare.svg
+old builds/dist/assets/img/CanApps/CanSign.svg
+old builds/dist/assets/img/CanApps/CanStation.svg
+old builds/dist/assets/img/CanApps/CanTask.svg
+old builds/dist/assets/img/CanApps/CanTools.svg
+old builds/dist/assets/img/CanApps/CanTrack.svg
+old builds/dist/assets/img/CanApps/CanTransfer .svg
+old builds/dist/assets/img/CanApps/CanYa Airdrop .svg
+old builds/dist/assets/img/CanApps/CanYa Ropsten Testnet .svg
+old builds/dist/assets/img/CanApps/CanYa25.svg
+old builds/dist/assets/img/CanApps/illustrations/CanInvoice.svg
+old builds/dist/assets/img/CanApps/illustrations/CanSend.svg
+old builds/dist/assets/img/CanApps/illustrations/CanShare.svg
+old builds/dist/assets/img/CanApps/illustrations/CanStation.svg
+old builds/dist/assets/img/CanApps/illustrations/CanTrack.svg
+old builds/dist/assets/img/CanApps/illustrations/CanYa25.svg
+old builds/dist/assets/img/CanDo.svg
+old builds/dist/assets/img/CanInvoice.svg
+old builds/dist/assets/img/CanQueue.svg
+old builds/dist/assets/img/CanStation.svg
+old builds/dist/assets/img/CanStyle.svg
+old builds/dist/assets/img/CanTrack.svg
+old builds/dist/assets/img/CanTransfer.svg
+old builds/dist/assets/img/canya-button.png
+old builds/dist/assets/img/canya-media-coin.png
+old builds/dist/assets/img/canya-media-square.png
+old builds/dist/assets/img/canya-media.png
+old builds/dist/assets/img/CanYa25.svg
+old builds/dist/assets/img/chrome.svg
+old builds/dist/assets/img/coffee-white.svg
+old builds/dist/assets/img/coffee.svg
+old builds/dist/assets/img/favicon.png
+old builds/dist/assets/img/heart.svg
+old builds/dist/assets/img/icon.svg
+old builds/dist/assets/img/loader.svg
+old builds/dist/assets/img/logo-light.svg
+old builds/dist/assets/img/logo-media.png
+old builds/dist/assets/img/logo.svg
+old builds/dist/assets/img/metamask-buy.png
+old builds/dist/assets/img/metamask-locked.png
+old builds/dist/assets/img/metamask.svg
+old builds/dist/assets/img/placeholder.png
+old builds/dist/assets/img/round-icon.svg
+old builds/dist/assets/img/search.svg
+old builds/dist/assets/img/signout-hover.svg
+old builds/dist/assets/img/signout.svg
+old builds/dist/assets/img/telegram.png
+old builds/dist/assets/img/wave.jpg
+old builds/dist/assets/img/wave1.svg
+old builds/dist/assets/img/wave2.svg
+old builds/dist/assets/js/bodymovin.min.js
+old builds/dist/assets/js/bodymovin_light.min.js
+old builds/dist/assets/js/canya.js
+old builds/dist/assets/js/canya.min.js
+old builds/dist/assets/js/core.min.js
+old builds/dist/assets/js/ipfs.min.js
+old builds/dist/assets/js/orbitdb.min.js
+old builds/dist/assets/js/script.js
+old builds/dist/assets/js/uport-connect.min.js
+old builds/dist/assets/webfonts/fa-brands-400.eot
+old builds/dist/assets/webfonts/fa-brands-400.svg
+old builds/dist/assets/webfonts/fa-brands-400.ttf
+old builds/dist/assets/webfonts/fa-brands-400.woff
+old builds/dist/assets/webfonts/fa-brands-400.woff2
+old builds/dist/assets/webfonts/fa-regular-400.eot
+old builds/dist/assets/webfonts/fa-regular-400.svg
+old builds/dist/assets/webfonts/fa-regular-400.ttf
+old builds/dist/assets/webfonts/fa-regular-400.woff
+old builds/dist/assets/webfonts/fa-regular-400.woff2
+old builds/dist/assets/webfonts/fa-solid-900.eot
+old builds/dist/assets/webfonts/fa-solid-900.svg
+old builds/dist/assets/webfonts/fa-solid-900.ttf
+old builds/dist/assets/webfonts/fa-solid-900.woff
+old builds/dist/assets/webfonts/fa-solid-900.woff2
+old builds/dist/index.html
+old builds/dist/inline.bundle.js
+old builds/dist/inline.bundle.js.map
+old builds/dist/main.bundle.js
+old builds/dist/main.bundle.js.map
+old builds/dist/polyfills.bundle.js
+old builds/dist/polyfills.bundle.js.map
+old builds/dist/styles.bundle.js
+old builds/dist/styles.bundle.js.map
+old builds/dist/vendor.bundle.js
+old builds/dist/vendor.bundle.js.map
+old builds/public/3rdpartylicenses.txt
+old builds/public/assets/css/awesomplete.css
+old builds/public/assets/css/canya.css
+old builds/public/assets/css/canya.css.map
+old builds/public/assets/css/core.min.css
+old builds/public/assets/css/cryptocoins-colors.css
+old builds/public/assets/css/cryptocoins.css
+old builds/public/assets/css/style.css
+old builds/public/assets/data/airport.json
+old builds/public/assets/data/consult.json
+old builds/public/assets/data/desk.json
+old builds/public/assets/data/hand.json
+old builds/public/assets/data/home.json
+old builds/public/assets/data/portfolio.json
+old builds/public/assets/docs/terms.pdf
+old builds/public/assets/docs/whitepaper.pdf
+old builds/public/assets/fonts/canya.eot
+old builds/public/assets/fonts/canya.svg
+old builds/public/assets/fonts/canya.ttf
+old builds/public/assets/fonts/canya.woff
+old builds/public/assets/fonts/canya.woff2
+old builds/public/assets/fonts/cryptocoins.ttf
+old builds/public/assets/fonts/cryptocoins.woff
+old builds/public/assets/fonts/cryptocoins.woff2
+old builds/public/assets/fonts/et-line.eot
+old builds/public/assets/fonts/et-line.svg
+old builds/public/assets/fonts/et-line.ttf
+old builds/public/assets/fonts/et-line.woff
+old builds/public/assets/fonts/fontawesome-webfont.eot
+old builds/public/assets/fonts/fontawesome-webfont.svg
+old builds/public/assets/fonts/fontawesome-webfont.ttf
+old builds/public/assets/fonts/fontawesome-webfont.woff
+old builds/public/assets/fonts/fontawesome-webfont.woff2
+old builds/public/assets/fonts/FontAwesome.otf
+old builds/public/assets/fonts/themify.eot
+old builds/public/assets/fonts/themify.svg
+old builds/public/assets/fonts/themify.ttf
+old builds/public/assets/fonts/themify.woff
+old builds/public/assets/img/badge-apple.png
+old builds/public/assets/img/badge-google.png
+old builds/public/assets/img/bot-hover.svg
+old builds/public/assets/img/bot.svg
+old builds/public/assets/img/CanApps/CanApps .svg
+old builds/public/assets/img/CanApps/CanAutomate .svg
+old builds/public/assets/img/CanApps/CanBe .svg
+old builds/public/assets/img/CanApps/CanDo .svg
+old builds/public/assets/img/CanApps/CanGfy .svg
+old builds/public/assets/img/CanApps/CanGive .svg
+old builds/public/assets/img/CanApps/CanHire.svg
+old builds/public/assets/img/CanApps/CanID .svg
+old builds/public/assets/img/CanApps/CanInvoice.svg
+old builds/public/assets/img/CanApps/CanLedger .svg
+old builds/public/assets/img/CanApps/CanPay .svg
+old builds/public/assets/img/CanApps/CanPro .svg
+old builds/public/assets/img/CanApps/CanProof .svg
+old builds/public/assets/img/CanApps/CanQueue .svg
+old builds/public/assets/img/CanApps/CanSend.svg
+old builds/public/assets/img/CanApps/CanServices.svg
+old builds/public/assets/img/CanApps/CanShare.svg
+old builds/public/assets/img/CanApps/CanSign.svg
+old builds/public/assets/img/CanApps/CanStation.svg
+old builds/public/assets/img/CanApps/CanTask.svg
+old builds/public/assets/img/CanApps/CanTools.svg
+old builds/public/assets/img/CanApps/CanTrack.svg
+old builds/public/assets/img/CanApps/CanTransfer .svg
+old builds/public/assets/img/CanApps/CanYa Airdrop .svg
+old builds/public/assets/img/CanApps/CanYa Ropsten Testnet .svg
+old builds/public/assets/img/CanApps/CanYa25.svg
+old builds/public/assets/img/CanApps/illustrations/CanInvoice.svg
+old builds/public/assets/img/CanApps/illustrations/CanSend.svg
+old builds/public/assets/img/CanApps/illustrations/CanShare.svg
+old builds/public/assets/img/CanApps/illustrations/CanStation.svg
+old builds/public/assets/img/CanApps/illustrations/CanTrack.svg
+old builds/public/assets/img/CanApps/illustrations/CanYa25.svg
+old builds/public/assets/img/CanDo.svg
+old builds/public/assets/img/CanInvoice.svg
+old builds/public/assets/img/CanQueue.svg
+old builds/public/assets/img/CanStation.svg
+old builds/public/assets/img/CanStyle.svg
+old builds/public/assets/img/CanTrack.svg
+old builds/public/assets/img/CanTransfer.svg
+old builds/public/assets/img/canya-button.png
+old builds/public/assets/img/canya-media-coin.png
+old builds/public/assets/img/canya-media-square.png
+old builds/public/assets/img/canya-media.png
+old builds/public/assets/img/CanYa25.svg
+old builds/public/assets/img/chrome.svg
+old builds/public/assets/img/coffee-white.svg
+old builds/public/assets/img/coffee.svg
+old builds/public/assets/img/favicon.png
+old builds/public/assets/img/heart.svg
+old builds/public/assets/img/icon.svg
+old builds/public/assets/img/loader.svg
+old builds/public/assets/img/logo-light.svg
+old builds/public/assets/img/logo-media.png
+old builds/public/assets/img/logo.svg
+old builds/public/assets/img/metamask-buy.png
+old builds/public/assets/img/metamask-locked.png
+old builds/public/assets/img/metamask.svg
+old builds/public/assets/img/placeholder.png
+old builds/public/assets/img/round-icon.svg
+old builds/public/assets/img/search.svg
+old builds/public/assets/img/signout-hover.svg
+old builds/public/assets/img/signout.svg
+old builds/public/assets/img/telegram.png
+old builds/public/assets/img/wave.jpg
+old builds/public/assets/img/wave1.svg
+old builds/public/assets/img/wave2.svg
+old builds/public/assets/js/bodymovin.min.js
+old builds/public/assets/js/bodymovin_light.min.js
+old builds/public/assets/js/canya.js
+old builds/public/assets/js/canya.min.js
+old builds/public/assets/js/core.min.js
+old builds/public/assets/js/ipfs.min.js
+old builds/public/assets/js/orbitdb.min.js
+old builds/public/assets/js/script.js
+old builds/public/assets/js/uport-connect.min.js
+old builds/public/assets/webfonts/fa-brands-400.eot
+old builds/public/assets/webfonts/fa-brands-400.svg
+old builds/public/assets/webfonts/fa-brands-400.ttf
+old builds/public/assets/webfonts/fa-brands-400.woff
+old builds/public/assets/webfonts/fa-brands-400.woff2
+old builds/public/assets/webfonts/fa-regular-400.eot
+old builds/public/assets/webfonts/fa-regular-400.svg
+old builds/public/assets/webfonts/fa-regular-400.ttf
+old builds/public/assets/webfonts/fa-regular-400.woff
+old builds/public/assets/webfonts/fa-regular-400.woff2
+old builds/public/assets/webfonts/fa-solid-900.eot
+old builds/public/assets/webfonts/fa-solid-900.svg
+old builds/public/assets/webfonts/fa-solid-900.ttf
+old builds/public/assets/webfonts/fa-solid-900.woff
+old builds/public/assets/webfonts/fa-solid-900.woff2
+old builds/public/index.html
+old builds/public/inline.318b50c57b4eba3d437b.bundle.js
+old builds/public/main.3aed290bc75c72e64b5f.bundle.js
+old builds/public/polyfills.fa62713060e7012f88ea.bundle.js
+old builds/public/styles.0039e9ceeb670ffb5701.bundle.css
+prod/3rdpartylicenses.txt
+prod/assets/css/awesomplete.css
+prod/assets/css/canya.css
+prod/assets/css/canya.css.map
+prod/assets/css/core.min.css
+prod/assets/css/cryptocoins-colors.css
+prod/assets/css/cryptocoins.css
+prod/assets/css/style.css
+prod/assets/data/airport.json
+prod/assets/data/consult.json
+prod/assets/data/desk.json
+prod/assets/data/hand.json
+prod/assets/data/home.json
+prod/assets/data/portfolio.json
+prod/assets/docs/terms.pdf
+prod/assets/docs/whitepaper.pdf
+prod/assets/fonts/canya.eot
+prod/assets/fonts/canya.svg
+prod/assets/fonts/canya.ttf
+prod/assets/fonts/canya.woff
+prod/assets/fonts/canya.woff2
+prod/assets/fonts/cryptocoins.ttf
+prod/assets/fonts/cryptocoins.woff
+prod/assets/fonts/cryptocoins.woff2
+prod/assets/fonts/et-line.eot
+prod/assets/fonts/et-line.svg
+prod/assets/fonts/et-line.ttf
+prod/assets/fonts/et-line.woff
+prod/assets/fonts/fontawesome-webfont.eot
+prod/assets/fonts/fontawesome-webfont.svg
+prod/assets/fonts/fontawesome-webfont.ttf
+prod/assets/fonts/fontawesome-webfont.woff
+prod/assets/fonts/fontawesome-webfont.woff2
+prod/assets/fonts/FontAwesome.otf
+prod/assets/fonts/themify.eot
+prod/assets/fonts/themify.svg
+prod/assets/fonts/themify.ttf
+prod/assets/fonts/themify.woff
+prod/assets/img/badge-apple.png
+prod/assets/img/badge-google.png
+prod/assets/img/bot-hover.svg
+prod/assets/img/bot.svg
+prod/assets/img/CanApps/CanApps .svg
+prod/assets/img/CanApps/CanAutomate .svg
+prod/assets/img/CanApps/CanBe .svg
+prod/assets/img/CanApps/CanDo .svg
+prod/assets/img/CanApps/CanGfy .svg
+prod/assets/img/CanApps/CanGive .svg
+prod/assets/img/CanApps/CanHire.svg
+prod/assets/img/CanApps/CanID .svg
+prod/assets/img/CanApps/CanInvoice.svg
+prod/assets/img/CanApps/CanLedger .svg
+prod/assets/img/CanApps/CanPay .svg
+prod/assets/img/CanApps/CanPro .svg
+prod/assets/img/CanApps/CanProof .svg
+prod/assets/img/CanApps/CanQueue .svg
+prod/assets/img/CanApps/CanSend.svg
+prod/assets/img/CanApps/CanServices.svg
+prod/assets/img/CanApps/CanShare.svg
+prod/assets/img/CanApps/CanSign.svg
+prod/assets/img/CanApps/CanStation.svg
+prod/assets/img/CanApps/CanTask.svg
+prod/assets/img/CanApps/CanTools.svg
+prod/assets/img/CanApps/CanTrack.svg
+prod/assets/img/CanApps/CanTransfer .svg
+prod/assets/img/CanApps/CanYa Airdrop .svg
+prod/assets/img/CanApps/CanYa Ropsten Testnet .svg
+prod/assets/img/CanApps/CanYa25.svg
+prod/assets/img/CanApps/illustrations/CanInvoice.svg
+prod/assets/img/CanApps/illustrations/CanSend.svg
+prod/assets/img/CanApps/illustrations/CanShare.svg
+prod/assets/img/CanApps/illustrations/CanStation.svg
+prod/assets/img/CanApps/illustrations/CanTrack.svg
+prod/assets/img/CanApps/illustrations/CanYa25.svg
+prod/assets/img/CanDo.svg
+prod/assets/img/CanInvoice.svg
+prod/assets/img/CanQueue.svg
+prod/assets/img/CanStation.svg
+prod/assets/img/CanStyle.svg
+prod/assets/img/CanTrack.svg
+prod/assets/img/CanTransfer.svg
+prod/assets/img/canya-button.png
+prod/assets/img/canya-media-coin.png
+prod/assets/img/canya-media-square.png
+prod/assets/img/canya-media.png
+prod/assets/img/CanYa25.svg
+prod/assets/img/chrome.svg
+prod/assets/img/coffee-white.svg
+prod/assets/img/coffee.svg
+prod/assets/img/favicon.png
+prod/assets/img/heart.svg
+prod/assets/img/icon.svg
+prod/assets/img/loader.svg
+prod/assets/img/logo-light.svg
+prod/assets/img/logo-media.png
+prod/assets/img/logo.svg
+prod/assets/img/metamask-buy.png
+prod/assets/img/metamask-locked.png
+prod/assets/img/metamask.svg
+prod/assets/img/placeholder.png
+prod/assets/img/round-icon.svg
+prod/assets/img/search.svg
+prod/assets/img/signout-hover.svg
+prod/assets/img/signout.svg
+prod/assets/img/telegram.png
+prod/assets/img/wave.jpg
+prod/assets/img/wave1.svg
+prod/assets/img/wave2.svg
+prod/assets/js/bodymovin.min.js
+prod/assets/js/bodymovin_light.min.js
+prod/assets/js/canya.js
+prod/assets/js/canya.min.js
+prod/assets/js/core.min.js
+prod/assets/js/ipfs.min.js
+prod/assets/js/orbitdb.min.js
+prod/assets/js/script.js
+prod/assets/js/uport-connect.min.js
+prod/assets/webfonts/fa-brands-400.eot
+prod/assets/webfonts/fa-brands-400.svg
+prod/assets/webfonts/fa-brands-400.ttf
+prod/assets/webfonts/fa-brands-400.woff
+prod/assets/webfonts/fa-brands-400.woff2
+prod/assets/webfonts/fa-regular-400.eot
+prod/assets/webfonts/fa-regular-400.svg
+prod/assets/webfonts/fa-regular-400.ttf
+prod/assets/webfonts/fa-regular-400.woff
+prod/assets/webfonts/fa-regular-400.woff2
+prod/assets/webfonts/fa-solid-900.eot
+prod/assets/webfonts/fa-solid-900.svg
+prod/assets/webfonts/fa-solid-900.ttf
+prod/assets/webfonts/fa-solid-900.woff
+prod/assets/webfonts/fa-solid-900.woff2
+prod/index.html
+prod/inline.318b50c57b4eba3d437b.bundle.js
+prod/main.5ce5c90475892a969098.bundle.js
+prod/polyfills.fa62713060e7012f88ea.bundle.js
+prod/styles.0039e9ceeb670ffb5701.bundle.css

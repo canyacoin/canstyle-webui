@@ -11,6 +11,8 @@ export class ButtonsComponent implements OnInit {
 
   ngOnInit() {
     $( document ).ready(function() { 
+
+        $('#top-nav .nav-item a').css('color','#919d9d');
         $('#buttons-link').css('color','#535353');
     });
   }

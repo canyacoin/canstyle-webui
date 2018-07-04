@@ -11,6 +11,8 @@ export class WidgetsComponent implements OnInit {
 
   ngOnInit() {
     $( document ).ready(function() { 
+
+      $('#top-nav .nav-item a').css('color','#919d9d');
         $('#widgets-link').css('color','#535353');
     });
   }
