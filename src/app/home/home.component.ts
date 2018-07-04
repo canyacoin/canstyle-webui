@@ -24,5 +24,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
         );   
         $('#top-nav .nav-item a').css('color','#919d9d'); 
   }
- 
+  ngAfterViewInit(){
+      
+  }
 }
