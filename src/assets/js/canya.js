@@ -456,8 +456,8 @@
       //body.toggleClass('topbar-reveal').prepend('<div class="topbar-backdrop"></div>');
       body.toggleClass('topbar-reveal');
       $(this).closest('.topbar').prepend('<div class="topbar-backdrop"></div>');
-    });
-
+    }); 
+      
     $(document).on('click', '.topbar-backdrop', function(){
       body.toggleClass('topbar-reveal');
       $(this).remove();
@@ -474,18 +474,17 @@
       submenu.slideToggle();
     });
 
-    // Close nav if a scrollto link clicked
+       // Close nav if a scrollto link clicked
     //
     $(document).on('click', '.topbar-reveal .topbar-nav .nav-link', function(){
       if ( $(this).hasDataAttr('scrollto') ) {
         body.removeClass('topbar-reveal');
         $('.topbar-backdrop').remove();
       }
-    });
-
+    }); 
   }
-
-
+  
+  
 
   //----------------------------------------------------/
   // Typed

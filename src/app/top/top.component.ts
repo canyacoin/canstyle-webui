@@ -13,6 +13,13 @@ export class TopComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
+  
+    //removes the backdrop on link click  
+    $('.nav-link').click(function(){  
+        $('body').toggleClass('topbar-reveal');
+        $('.topbar-backdrop').remove();  
+    });
+
  
   }
 }
