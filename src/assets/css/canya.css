@@ -5557,8 +5557,8 @@ ul.flexbox {
 }
 
 .topbar-backdrop::after {
-  content: "";
-  font-family: themify;
+  content: "X";
+  font-family: montserrat;
   font-size: 20px;
   color: #b5b9bf;
   opacity: .7;
