@@ -1,3 +1,12 @@
+****
+
+> **Mirror**
+> This repo mirrors from Gitlab to Github. Please commit to the Gitlab repo:
+> https://gitlab.com/canyacoin/canapps/canstyle
+
+****
+
+
 # CanStyle
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2.
